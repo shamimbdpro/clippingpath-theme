@@ -1,0 +1,1 @@
+<?php die(); ?>{"headers":{"Vary":"Vary: Accept-Encoding, Cookie","Last-Modified":"Last-Modified: Mon, 15 Oct 2018 17:57:02 GMT","Content-Type":"Content-Type: text\/xml; charset=\"UTF-8\""},"uri":"www.clippingpathaid.com\/sitemap_index.xml","blog_id":1,"post":0,"key":"www.clippingpathaid.com443\/sitemap_index.xml"}

@@ -1,0 +1,30 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+RewriteCond %{HTTP_REFERER} !^https://cliping.clippingpathaid.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://cliping.clippingpathaid.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://clippingpathaid.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://clippingpathaid.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.cliping.clippingpathaid.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.cliping.clippingpathaid.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.clippingpathaid.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.clippingpathaid.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://cliping.clippingpathaid.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://cliping.clippingpathaid.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://clippingpathaid.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://clippingpathaid.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.cliping.clippingpathaid.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.cliping.clippingpathaid.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.clippingpathaid.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.clippingpathaid.com$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+

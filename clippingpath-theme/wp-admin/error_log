@@ -1,0 +1,7 @@
+[02-Oct-2018 06:47:33 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[04-Oct-2018 08:38:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home1/jasimuddin/public_html/wp-content/themes/clipping/functions.php on line 185
+[06-Oct-2018 13:38:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/jasimuddin/public_html/wp-content/themes/clipping/functions.php:200) in /home1/jasimuddin/public_html/wp-admin/includes/misc.php on line 1126
+[06-Oct-2018 13:39:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/jasimuddin/public_html/wp-content/themes/clipping/functions.php:200) in /home1/jasimuddin/public_html/wp-admin/includes/misc.php on line 1126
+[06-Oct-2018 13:39:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/jasimuddin/public_html/wp-content/themes/clipping/functions.php:200) in /home1/jasimuddin/public_html/wp-admin/includes/misc.php on line 1126
+[06-Oct-2018 13:39:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/jasimuddin/public_html/wp-content/themes/clipping/functions.php:200) in /home1/jasimuddin/public_html/wp-admin/includes/misc.php on line 1126
+[06-Oct-2018 15:14:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home1/jasimuddin/public_html/wp-content/themes/clipping/functions.php on line 211

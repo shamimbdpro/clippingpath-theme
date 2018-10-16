@@ -1,0 +1,27 @@
+@font-face {
+  font-family: releway_semi;
+  src: url(../fonts/raleway/Raleway-SemiBold.ttf);
+}
+.jcgmt-container {
+    margin: 0px auto;
+}
+.jcgmt-clockHolder {
+    width:200px; 
+    margin:0 auto;
+    position:relative;
+    overflow: hidden;
+}
+.jcgmt-sec,
+.jcgmt-min,
+.jcgmt-hour {
+    display:block;
+    position:absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.jcgmt-rotatingWrapper {
+    position:absolute;
+    width:200px;
+    height:200px;
+}

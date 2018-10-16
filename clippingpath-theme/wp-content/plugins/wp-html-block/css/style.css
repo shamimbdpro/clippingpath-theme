@@ -1,0 +1,86 @@
+#descriptiondiv {
+    padding-top: 20px;
+    position: relative;
+}
+
+#descriptionwrap {
+    border: 0 none;
+    padding: 0;
+}
+
+#descriptiondiv #description-prompt-text {
+    color: #777;
+    font-size: 1.7em;
+    padding: 11px 10px;
+    position: absolute;
+}
+
+#descriptiondiv label {
+    cursor: text;
+}
+
+#descriptiondiv #description {
+    background-color: #fff;
+    font-size: 1.7em;
+    height: 1.7em;
+    line-height: 100%;
+    margin: 0 0 3px;
+    outline: 0 none;
+    padding: 3px 8px;
+    width: 100%;
+}
+
+pre.copy-code {
+    cursor: pointer;
+    white-space: pre-line;
+    margin: 0;
+}
+
+span#code-copied {
+    background: #59e77d none repeat scroll 0 0;
+    color: #1b5811;
+    display: block;
+    font-weight: bold;
+    height: 70%;
+    padding-top: 7%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 90%;
+}
+
+#wphtmlblock_settings label {
+    display: inline-block;
+    width: 125px;
+}
+
+span.active-toggle {
+    border-radius: 10px;
+    color: #ffffff;
+    display: inline-block;
+    height: 20px;
+    margin-right: 10px;
+    width: 20px;
+    cursor: pointer;
+}
+
+select#block-img-size,
+#wphtmlblock_settings input {
+    width: 120px;
+}
+
+span.block-active {
+    background: #0ade16 none repeat scroll 0 0;
+}
+
+span.block-inactive {
+    background: #f10f43 none repeat scroll 0 0;
+}
+
+#block_id.column-block_id {
+    width: 4.5em;
+}
+
+#wphtmlblock_settings > p {
+    margin: 0 0 5px;
+}
